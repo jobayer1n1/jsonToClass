@@ -8,7 +8,7 @@ MVP Workflow:
 1. Developer writes in define_classes.py:
 - `CreateClass("Me", "/me")`
 
-2. When run run define_class.py:
+2. When user run define_class.py:
 
 - CreateClass Sends a request to /me
 
