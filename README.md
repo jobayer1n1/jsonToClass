@@ -19,9 +19,10 @@ MVP Workflow:
 
 3. In the project, the developer can import and use the class directly:
 
-- `from Classes.me import Me`
-- `print(Me.name)  # works immediately, no extra mapping`
-
+```
+from Classes.me import Me
+print(Me.name)  # works immediately, no extra mapping
+```
 
 ## Key Features (MVP):
 
