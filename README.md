@@ -8,14 +8,13 @@ MVP Workflow:
 1. Developer writes in define_classes.py:
 - `CreateClass("Me", "/me")`
 
-2. When run define_class.py:
+2. When run run define_class.py:
 
 - CreateClass Sends a request to /me
 
 - Fetches and decodes the JSON response
 
 - Generates a Python file me.py in Classes/ folder with a class Me containing fields matching the JSON keys
-
 
 
 3. In the project, the developer can import and use the class directly:
